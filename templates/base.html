@@ -1,3 +1,5 @@
+{% load static %}
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -10,16 +12,19 @@
 
     <title>Hello, world!</title>
     <script src="https://kit.fontawesome.com/213607063a.js" crossorigin="anonymous"></script>
+
+    <!-- main styles-->
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
   </head>
   <body>
     <header id="header" class="header">
-      <div class="container-fluid">
+      <div class="container">
         <div class="row">
-          <div class="col-md-6 border bg-light pl-5">
+          <div class="col-md-6 border">
             <i class="fas fa-book"></i>
             BooksApp
           </div>
-          <div class="col-md-6 text-right border bg-light pr-5">
+          <div class="col-md-6 text-right border">
             LOGIN2
           </div>
         </div>
