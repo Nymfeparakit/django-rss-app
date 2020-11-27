@@ -1,14 +1,21 @@
 body {
-    font-family: 'Average Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .header {
     background: #ceeddb;
-    color: #544e61;
+    color: #534d60;
     font-size: 22px;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
+
+/*
+.header_app_name {
+    margin-bottom: 30px;
+}
+*/
 
 .footer {
     background: #ceeddb;
@@ -32,17 +39,25 @@ body {
 
 .welcome_title {
     margin-bottom: 12px;
-    margin-top: 20px;
+    margin-top: 30px;
+    font-weight: bold;
 }
 
 .welcome_msg {
-    margin-bottom: 50px;
+    font-size: 18px;
+    margin-bottom: 100px;
 }
 
-/*
 .header i {
-    font-size: 42px;
+    font-size: 20px;
 }
-*/
+
+.btn {
+    background: #6e8894;
+    color: #ceeddb;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 
