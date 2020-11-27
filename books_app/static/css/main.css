@@ -62,4 +62,12 @@ body {
     padding-right: 30px;
 }
 
+a {
+    color: #544e61;
+}
+
+a:hover {
+    color: #6e8894;
+}
+
 
