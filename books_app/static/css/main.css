@@ -62,6 +62,10 @@ body {
     padding-right: 30px;
 }
 
+.btn:hover {
+    color: #544e61;
+}
+
 a {
     color: #544e61;
 }
