@@ -2,13 +2,29 @@
 
 {% block content %}
 
-{% if form.errors %}
-    <p>Your username and password didn't match. Please try again.</p>
-{% endif %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-7 border">
+            {% if form.errors %}
+                <p>Your username and password didn't match. Please try again.</p>
+            {% endif %}
+        
+            <form method="post" action="{% url 'login' %}" class="login_form">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="usernameInput">Username</label>
+                    <input type="text" class="form-control col-md-6" id="usernameInput" name="username">
+                </div>
+                <div class="form-group">
+                    <label for="passwordInput">Password</label>
+                    <input type="password" class="form-control col-md-6" id="passwordInput" name="password">
+                </div>
+                <button type="submit" class="btn login_submit_btn">Submit</button>
+            </form>
+        </div>
+    </div>
 
-<form method="post" action="{% url 'login' %}">
-    {% csrf_token %}
-    {{ form.as_p }}
-</form>
+</div>
+
 
 {% endblock %}
