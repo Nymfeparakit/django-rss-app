@@ -77,6 +77,11 @@ a:hover {
     color: #6e8894;
 }
 
+.logo:hover {
+    color: #544e61;
+    text-decoration: none;
+}
+
 .login_form {
     margin-top: 50px;
     margin-bottom: 60px;
