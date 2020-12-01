@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'feeds.apps.FeedsConfig',
     'pages.apps.PagesConfig',
     'accounts.apps.AccountsConfig',
     'django.contrib.admin',

@@ -11,12 +11,6 @@ body {
     padding-bottom: 10px;
 }
 
-/*
-.header_app_name {
-    margin-bottom: 30px;
-}
-*/
-
 .footer {
     background: #ceeddb;
     color: #544e61;
@@ -89,6 +83,12 @@ a:hover {
 
 .login_submit_btn {
     margin-top: 30px;
+}
+
+feed_drawer {
+    background: #ceeddb;
+    color: #534d60;
+    font-size: 18px;
 }
 
 
