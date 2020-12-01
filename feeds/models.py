@@ -9,3 +9,4 @@ class Feed(models.Model):
 class Source(models.Model):
     name = models.CharField(max_length=30)
     icon = models.ImageField(upload_to='sources_icons/')
+    url = models.URLField()
