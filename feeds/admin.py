@@ -1,3 +1,11 @@
 from django.contrib import admin
+from .models import Feed, Source
 
-# Register your models here.
+@admin.register(Source)
+class SourceAdmin(admin.ModelAdmin):
+    pass
+
+
+@admin.register(Feed)
+class FeedAdmin(admin.ModelAdmin):
+    pass
