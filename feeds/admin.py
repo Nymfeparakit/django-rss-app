@@ -8,4 +8,4 @@ class SourceAdmin(admin.ModelAdmin):
 
 @admin.register(Feed)
 class FeedAdmin(admin.ModelAdmin):
-    pass
+    list_display = ('name', 'user')
