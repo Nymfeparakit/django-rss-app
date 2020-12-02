@@ -1,5 +1,6 @@
-body {
+html, body {
     font-family: 'Source Sans Pro', sans-serif;
+    height: 100%;
 }
 
 .header {
@@ -85,10 +86,16 @@ a:hover {
     margin-top: 30px;
 }
 
-feed_drawer {
+.feed_drawer {
+    padding-top: 40px;
     background: #ceeddb;
     color: #534d60;
     font-size: 18px;
+}
+
+.fill {
+    height: 100%;
+    min-height: 100%;
 }
 
 

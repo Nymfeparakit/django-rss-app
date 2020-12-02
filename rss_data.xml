@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"  >
+  <channel>
+    <title>Публикации по подписке</title>
+    <link>https://habr.com/ru/feed/posts/</link>
+    <description><![CDATA[Все публикации из Хабраленты]]></description>
+    <language>ru</language>
+    <managingEditor>editor@habr.com</managingEditor>
+    <generator>habr.com</generator>
+    <pubDate>Wed, 02 Dec 2020 06:22:54 GMT</pubDate>
+    
+      <image>
+        <link>https://habr.com/ru/</link>
+        <url>https://habr.com/images/logo.png</url>
+        <title>Хабр</title>
+      </image>
+
+              <item>
+      <title><![CDATA[О шахматах. И не только]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/530892/</guid>
+      <link>https://habr.com/ru/post/530892/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530892</link>
+      <description><![CDATA[Сегодня не будет тяжких раздумий о настоящем и будущем компьютерной индустрии. Сегодня я хочу рассказать об одном из своих хобби. Я играю в массу разных игр: футбол, хоккей, теннис (большой и маленький), покер, преферанс, биржа и т.п. Но мой “профильный” вид спорта — шахматы. Дальше кандидата в мастера моя карьера на этом поприще не продвинулась, но любовь к древней игре я сохраняю уже 4 десятка лет. Интересно, что она вполне “ужилась” с другим увлечением – программированием, породив интерес к искусственному интеллекту и теории игр. И разумеется, последние прорывы в этой области связанные с <a href="https://www.chess.com/ru/news/view/novaia-versiia-alphazero-razgromila-stockfish-v-matche-iz-1-000-partii" rel="nofollow">феноменальными успехами</a> проекта <a href="https://ru.wikipedia.org/wiki/AlphaZero" rel="nofollow">AlphaZero</a> не могли пройти мимо меня.<br>
+<img src="https://habrastorage.org/webt/hc/fl/kq/hcflkqu8ttl38wfz_wrtjpbogem.jpeg" alt="image"><br>
+ Тогда я просто сидел и восхищался партиями AlphaZero против <a href="https://ru.wikipedia.org/wiki/Stockfish" rel="nofollow">Stockfish</a>. А сейчас вернулся к теме в связи с задачей оптимизации нейронных сетей, которой иногда приходится заниматься по работе (увы, меньше чем хотелось бы). Как мне кажется, задачи эти могут оказаться тесно связанными, поэтому захотелось как то систематизировать свои идеи. <a href="https://habr.com/ru/post/530892/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530892#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Wed, 02 Dec 2020 05:56:31 GMT</pubDate>
+      <dc:creator>vvvphoenix</dc:creator>
+      <category><![CDATA[Блог компании Huawei]]></category><category><![CDATA[Высокая производительность]]></category><category><![CDATA[Искусственный интеллект]]></category><category><![CDATA[Логические игры]]></category>
+      <category><![CDATA[шахматы]]></category><category><![CDATA[alphazero]]></category><category><![CDATA[искусственный интеллект]]></category><category><![CDATA[история]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Спутник фоторазведки на «Союзе». Запуски года: 99 всего, 13 от России]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/530888/</guid>
+      <link>https://habr.com/ru/post/530888/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530888</link>
+      <description><![CDATA[<p><em>Вячеслав Ермолин, 02 декабря 2020 г.</em></p> <a href="https://habr.com/ru/post/530888/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530888#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 02 Dec 2020 02:53:22 GMT</pubDate>
+      <dc:creator>AirLibra</dc:creator>
+      <category><![CDATA[Научно-популярное]]></category><category><![CDATA[Космонавтика]]></category>
+      <category><![CDATA[Космос]]></category><category><![CDATA[Космические запуски]]></category><category><![CDATA[Союз СТ-А]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Оценка трудозатрат в разработке ПО для начинающих]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/530806/</guid>
+      <link>https://habr.com/ru/post/530806/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530806</link>
+      <description><![CDATA[<p>Помню, как меня впервые попросили дать оценку…</p><p>Тогда это застало врасплох.</p><p>Меня завели в кабинет, где были мой начальник, его босс и кто-то из вышестоящего руководства, и мы сели за круглый стол, уставившись друг на друга.</p><p>Аналитики зачитали некоторые требования от клиента. Мы их коротко обсудили.</p><p>И тут мой начальник повернулся ко мне и спросил: «Сколько времени это займет?»</p><p>Я не знал, что сказать,&nbsp;— меня к этому не готовили. Мне не сказали, что на этой встрече нужно будет давать оценку&nbsp;— я думал, меня позвали поприсутствовать, чтобы я чему-то научился.</p><p>И вдруг на меня все смотрят и ждут ответа, а я растерялся и не знаю, что сказать.</p><p>Передо мной лежала бумага для заметок. Я взял один листок и начал писать какие-то числа&nbsp;— без понятия, для чего, но точно не для этой оценки.</p><p>Где-то через минуту, которая показалась мне часом, я решил просто сказать первое, что пришло в голову: «Не знаю… часов 600?»</p><p>Начальник рассмеялся, а затем сказал остальным рассчитывать на примерно 1200&nbsp;часов.</p><p>Не очень люблю вспоминать тот день.</p><p>Понятно, что мне еще многое предстояло узнать, но меня мучил один вопрос: <em>как оценивать объем предстоящей работы?</em></p> <a href="https://habr.com/ru/post/530806/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530806#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Wed, 02 Dec 2020 02:50:01 GMT</pubDate>
+      <dc:creator>alconost</dc:creator>
+      <category><![CDATA[Блог компании Alconost]]></category><category><![CDATA[Программирование]]></category><category><![CDATA[Управление разработкой]]></category><category><![CDATA[Управление проектами]]></category><category><![CDATA[Управление продуктом]]></category>
+      <category>alconost</category><category>оценка трудозатрат</category><category>оценка стоимости проекта</category><category>оценка времени</category><category>оценка проекта</category><category>рекомендации</category><category>estimation</category><category>эстимация</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Кодируем и декодируем сообщение для внеземных цивилизаций]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/530882/</guid>
+      <link>https://habr.com/ru/post/530882/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530882</link>
+      <description><![CDATA[Привет Хабр.<br>
+<br>
+Мотивом для этой статьи, на самом деле, послужил грустный повод. Всемирно известный радиотелескоп обсерватории Аресибо в Пуэрто-Рико <a href="https://www.bbc.com/news/world-us-canada-55147973" rel="nofollow">разрушился</a> и восстановлению не подлежит. Многие годы это был самый крупный радиотелескоп в мире с полной апертурой (диаметр 304 м, диапазон частот до 10 ГГц), с помощью которого было сделано немало открытий. Здесь на фото из Википедии он в еще рабочем состоянии:<br>
+<br>
+<img src="https://habrastorage.org/webt/3k/md/0i/3kmd0iibykpjz40nmoyyfbi82dq.jpeg"><br>
+<br>
+Но текст собственно о другом событии. В 1974 г с этого телескопа было отправлено в космос послание внеземным цивилизациям. Что и как было в нем закодировано, подробности под катом. <a href="https://habr.com/ru/post/530882/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530882#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Tue, 01 Dec 2020 21:18:35 GMT</pubDate>
+      <dc:creator>DmitrySpb79</dc:creator>
+      <category><![CDATA[Python]]></category><category><![CDATA[Программирование]]></category><category><![CDATA[Научно-популярное]]></category><category><![CDATA[Космонавтика]]></category><category><![CDATA[Астрономия]]></category>
+      <category><![CDATA[python]]></category><category><![CDATA[SETI]]></category><category><![CDATA[послание]]></category><category><![CDATA[НЛО]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Популярная лингвистика. Часть 1. Маме — пиджин, детям — креол]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/530872/</guid>
+      <link>https://habr.com/ru/post/530872/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530872</link>
+      <description><![CDATA[<p><img src="https://habrastorage.org/webt/wz/el/jk/wzeljkvkvqk3nkgrbyj5k7xm84y.jpeg" alt="Brilliant Mironov"></p><br>
+<p>Если вам интересно, что такое пиджин и чем он отличается от креола, на каком языке общаются пришельцы и откуда есть пошёл дотракийский язык, то этот небольшой цикл статей для вас.</p> <a href="https://habr.com/ru/post/530872/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530872#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Tue, 01 Dec 2020 18:58:14 GMT</pubDate>
+      <dc:creator>averkij</dc:creator>
+      <category><![CDATA[Читальный зал]]></category><category><![CDATA[Изучение языков]]></category>
+      <category><![CDATA[иностранные языки]]></category><category><![CDATA[пиджин]]></category><category><![CDATA[креольский язык]]></category><category><![CDATA[языкознание]]></category><category><![CDATA[лингвистика]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] RxJS и Angular: искусство отписки от уведомлений]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/530640/</guid>
+      <link>https://habr.com/ru/post/530640/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530640</link>
+      <description><![CDATA[<p><em>Если вы используете Angular и библиотеку RxJS, здесь вы узнаете все способы, которые вам могут понадобиться, чтобы подписываться на уведомления от объектов Observable и отписываться от них!</em></p><p></p><p>Мы используем RxJS во всех приложениях Angular, которые пишем. RxJS оказывает значительное влияние на поток данных в наших приложениях, их производительность и многое другое.</p><p>Чтобы избежать утечек памяти, важно вовремя отписываться от уведомлений, выпускаемых объектами Observable. В этой статье описано большинство доступных способов, с помощью которых в компонентах Angular можно отписываться от уведомлений, выпускаемых объектами Observable.</p><p>Начнем с создания демонстрационного сервиса (DummyService), которой поможет нам отслеживать устанавливаемые подписки.</p> <a href="https://habr.com/ru/post/530640/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530640#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 01 Dec 2020 17:44:47 GMT</pubDate>
+      <dc:creator>MaxRokatansky</dc:creator>
+      <category><![CDATA[Блог компании OTUS. Онлайн-образование]]></category><category><![CDATA[JavaScript]]></category><category><![CDATA[Программирование]]></category><category><![CDATA[Angular]]></category>
+      <category>rxjs</category><category>angular</category><category>уведомления</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Анализатор кода не прав, да здравствует анализатор]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/530856/</guid>
+      <link>https://habr.com/ru/post/530856/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530856</link>
+      <description><![CDATA[<div style="text-align:center;"><img src="https://habrastorage.org/getpro/habr/post_images/8d4/9d6/4a2/8d49d64a2275db012e0407f1a31006ae.png" alt="Foo(std::move(buffer), line_buffer - buffer.get());"></div><br>
+Совмещать много действий в одном выражении языка C++ плохо, так как такой код тяжело понимать, тяжело поддерживать, так в нём еще и легко допустить ошибку. Например, создать баг, совмещая различные действия при вычислении аргументов функции. Мы согласны с классической рекомендацией, что код должен быть прост и понятен. И сейчас рассмотрим интересный случай, когда формально анализатор PVS-Studio не прав, но с практической точки зрения код всё равно стоит изменить.<br> <a href="https://habr.com/ru/post/530856/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530856#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Tue, 01 Dec 2020 17:34:54 GMT</pubDate>
+      <dc:creator>Andrey2008</dc:creator>
+      <category><![CDATA[Блог компании PVS-Studio]]></category><category><![CDATA[Программирование]]></category><category><![CDATA[C++]]></category>
+      <category><![CDATA[pvs-studio]]></category><category><![CDATA[статический анализ кода]]></category><category><![CDATA[статический анализатор кода]]></category><category><![CDATA[неопределённое поведение]]></category><category><![CDATA[неуточненное поведение]]></category><category><![CDATA[си++]]></category><category><![CDATA[c++]]></category><category><![CDATA[обзор кода]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Делаем печатные ссылки кликабельными с помощью TensorFlow 2 Object Detection API]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/530850/</guid>
+      <link>https://habr.com/ru/post/530850/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530850</link>
+      <description><![CDATA[<p><img src="https://habrastorage.org/getpro/habr/post_images/745/b61/01a/745b6101a4bb0c212288c868617942b8.png" alt="Links Detector Cover"></p><br>
+<h2 id="tldr">TL;DR</h2><br>
+<p><em>В этой статье мы начнем решать проблему того, как сделать печатные ссылки в книгах или журналах кликабельными используя камеру смартфона.</em></p><br>
+<p>С помощью <a href="https://github.com/tensorflow/models/tree/master/research/object_detection" rel="nofollow">TensorFlow 2 Object Detection API</a> мы научим TensorFlow модель находить позиции и габариты строк <code>https://</code> в изображениях (например в каждом кадре видео из камеры смартфона).</p><br>
+<p>Текст каждой ссылки, расположенный по правую сторону от <code>https://</code>, будет распознан с помощью библиотеки <a href="https://tesseract.projectnaptha.com/" rel="nofollow">Tesseract</a>. Работа с библиотекой Tesseract не является предметом этой статьи, но вы можете найти полный исходный код приложения в репозитории <a href="https://github.com/trekhleb/links-detector" rel="nofollow">links-detector repository</a> на GitHub.</p><br>
+<blockquote><a href="https://trekhleb.github.io/links-detector/" rel="nofollow"><strong>Запустить Links Detector</strong></a> со смартфона, чтобы увидеть конечный результат.<br>
+<br>
+<a href="https://github.com/trekhleb/links-detector" rel="nofollow"><strong>Открыть репозиторий links-detector</strong></a> на GitHub с полным исходным кодом приложения.</blockquote><p>Вот так в итоге будет выглядеть процесс распознавания печатных ссылок:</p><br>
+<p><img src="https://habrastorage.org/webt/bt/n8/yu/btn8yux_grhvcx5swooy62rzq6k.gif" alt="Links Detector Demo"></p> <a href="https://habr.com/ru/post/530850/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530850#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Tue, 01 Dec 2020 17:10:40 GMT</pubDate>
+      <dc:creator>trehleb</dc:creator>
+      <category><![CDATA[Python]]></category><category><![CDATA[Машинное обучение]]></category><category><![CDATA[Искусственный интеллект]]></category>
+      <category>artificial intelligence</category><category>datascience</category><category>tensorflow</category><category>machine learning</category><category>python</category><category>programming</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Сеньоров не хватает, или Статистика зарплат JavaScript-разработчиков]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/528560/</guid>
+      <link>https://habr.com/ru/post/528560/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=528560</link>
+      <description><![CDATA[<p>У Headz есть Телеграм-бот Headz Analytics. Он мониторит зарплаты в IT-отрасли по 12 крупнейшим городам России. Мы собрали статистику за 2020 год, чтобы детально изучить, как обстоят дела у JavaScript-разработчиков: проанализировали данные по уровню зарплат, которые предлагают JavaScript-разработчикам от джуниоров до сеньоров в нескольких городах. Для большей достоверности сравнили наши данные со сведениями из других источников: исследований Яндекса и Хабр Карьеры, чтобы получить некую общую картину. И вот что получилось.</p> <a href="https://habr.com/ru/post/528560/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=528560#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 01 Dec 2020 16:39:35 GMT</pubDate>
+      <dc:creator>angrygirl</dc:creator>
+      <category><![CDATA[Блог компании Headz.io — blog about Tech Career]]></category><category><![CDATA[Карьера в IT-индустрии]]></category><category><![CDATA[Статистика в IT]]></category>
+      <category><![CDATA[зарплата]]></category><category><![CDATA[статистика зарплат]]></category><category><![CDATA[карьера]]></category><category><![CDATA[javascript]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Возможно, вам не нужно машинное обучение]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/530626/</guid>
+      <link>https://habr.com/ru/post/530626/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530626</link>
+      <description><![CDATA[<div class="oembed"><iframe id="5fc50cdcd4323713fd4158e9" src="https://embedd.srv.habr.com/iframe/5fc50cdcd4323713fd4158e9"></iframe></div><br>
+Машинное обучение — модная технология, поэтому её часто используют в ситуации, когда существует более простое, эффективное и надёжное решение. На днях мне попался наглядный и забавный пример: <a href="https://www.youtube.com/watch?v=-sg-GgoFCP0" rel="nofollow">«Нейросетевые машины и генетические алгоритмы»</a>. Всю эту навороченную систему легко заменить простым многочленом без потери функциональности. Машинное обучение тут явный перебор.<br> <a href="https://habr.com/ru/post/530626/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530626#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Tue, 01 Dec 2020 15:48:01 GMT</pubDate>
+      <dc:creator>m1rko</dc:creator>
+      <category><![CDATA[Алгоритмы]]></category><category><![CDATA[Машинное обучение]]></category>
+      <category>нейросеть</category><category>квазислучайная последовательность</category>
+    </item>
+
+
+
+      <item>
+      <title><![CDATA[Дождались — вышел релиз системного менеджера systemd 247]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/530842/</guid>
+      <link>https://habr.com/ru/post/530842/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530842</link>
+      <description><![CDATA[<div style="text-align:center;"><img src="https://habrastorage.org/getpro/habr/post_images/0fa/818/de2/0fa818de234f7148e3f6d9fc7532a9dc.webp"></div><br>
+Разработка системного менеджера systemd 247 заняла у создателей свыше четырех месяцев, <a href="https://lists.freedesktop.org/archives/systemd-devel/2020-November/045646.html" rel="nofollow">но это того стоило</a>. В новом выпуске появился экспериментальный обработчик нехватки памяти, добавлен механизм для безопасной передачи конфиденциальных данных в сервисы, а также стабилизирована утилита system-dissect.<br>
+ <br>
+На самом деле, нового гораздо больше, подробности — под катом.<br> <a href="https://habr.com/ru/post/530842/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530842#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Tue, 01 Dec 2020 15:43:08 GMT</pubDate>
+      <dc:creator>Seleditor</dc:creator>
+      <category><![CDATA[Блог компании Selectel]]></category><category><![CDATA[Настройка Linux]]></category><category><![CDATA[Open source]]></category><category><![CDATA[Софт]]></category>
+      <category><![CDATA[linux]]></category><category><![CDATA[настройка]]></category><category><![CDATA[обновления]]></category><category><![CDATA[релиз]]></category><category><![CDATA[systemd 247]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Чем интересна разработка программных роботов RPA?]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/530840/</guid>
+      <link>https://habr.com/ru/post/530840/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530840</link>
+      <description><![CDATA[<p>Разработка программных роботов (RPA) — это раздел роботизации, автоматизирующий процессы, имеющие четкие алгоритмы. Сюда можно отнести такие задачи как поиск, сбор, перенос информации и т.д.</p><p>Автоматизацию настраивают для разных систем управления в компании: ERP, СУБД, CRM, HRM, BI, CMS. Например, программный робот способен переносить данные из одного приложения в другое, работать с Эксель, Вордом, почтой, веб-приложениями и т.д. Может использовать графический пользовательский интерфейс и работать с информацией как человек, взаимодействуя с элементами на экране. Часто в роботизации бизнес-процессов задействованы технологии машинного обучения.</p> <a href="https://habr.com/ru/post/530840/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530840#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 01 Dec 2020 15:29:40 GMT</pubDate>
+      <dc:creator>MaxRokatansky</dc:creator>
+      <category><![CDATA[Блог компании OTUS. Онлайн-образование]]></category><category><![CDATA[Робототехника]]></category><category><![CDATA[Софт]]></category>
+      <category><![CDATA[rpa]]></category><category><![CDATA[автоматизация процессов]]></category><category><![CDATA[роботизация]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[4 лондонских акцента английского: как разобраться в том, что говорит носитель]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/530810/</guid>
+      <link>https://habr.com/ru/post/530810/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530810</link>
+      <description><![CDATA[<img src="https://habrastorage.org/webt/68/08/-b/6808-b6qlrnws2n4kmasu1xhnu8.jpeg"><br>
+<br>
+Лингвисты отмечают, что в мире существует около 160 различных акцентов английского. И в каждом из них есть свои особенности произношения слов.<br>
+<br>
+Чуть ли не в каждом городе Британии говорят чуть-чуть по-разному. Даже в пределах одного населенного пункта часто бывает, что единого акцента нет. В Лондоне акцентов, к примеру, целых четыре. <br>
+<br>
+Давайте разберемся, какие именно акценты в ходу в Лондоне и как научиться их различать и понимать. <a href="https://habr.com/ru/post/530810/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530810#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Tue, 01 Dec 2020 15:27:38 GMT</pubDate>
+      <dc:creator>EnglishDom</dc:creator>
+      <category><![CDATA[Блог компании Онлайн школа EnglishDom]]></category><category><![CDATA[Изучение языков]]></category>
+      <category><![CDATA[английский язык]]></category><category><![CDATA[изучение английского]]></category><category><![CDATA[акценты]]></category><category><![CDATA[лондон]]></category><category><![CDATA[RP]]></category><category><![CDATA[кокни]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Как мы начали социальный Open Source проект Brain-Up по созданию платформы развития слухового восприятия]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/530824/</guid>
+      <link>https://habr.com/ru/post/530824/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530824</link>
+      <description><![CDATA[<p><strong>В сентябре 2019 года я стартовала социальный Open Source проект Brain Up. Это веб-приложение, которое включает в себя серии интерактивных аудиоупражнений для тренировки способности слышать и понимать речь. Я работаю Java-разработчиком с 2013 года. И вот, однажды столкнувшись с такой проблемой восприятия речи у своего ребенка, поняла, что могу попробовать начать разработку такого продукта, который мог бы помочь людям развивать способность восприятия речи не выходя из дома, за компьютером, через веб-сайт, не прибегая к ежедневной помощи близких, специалистов. В этой статье расскажу о нашем проекте, какие задачи и как были решены, наши планы и как можно присоединиться к проекту.</strong></p><p>«Лучше самая малая помощь, чем самое большое сочувствие.»</p><p>Владислав Лоранц</p><p><strong>Немного фактов</strong></p><p>По статистике ВОЗ более чем у 25% детей имеются нарушения речи, <a href="https://msluh.ru/you-must-tell/vidy-i-stepeni-narushenij-sluxa/" rel="noopener noreferrer nofollow"><u>более чем у 10%</u></a> людей есть<a href="https://www.who.int/ru/news-room/fact-sheets/detail/deafness-and-hearing-loss" rel="noopener noreferrer nofollow"><u> проблемы со слухом</u></a> той или иной степени <a href="https://www.who.int/topics/deafness/childhood-hearing-loss/ru/" rel="noopener noreferrer nofollow"><u>различного генезиса</u></a> (это могут быть и врожденные проблемы, и приобретённые как травмы или осложнения от антибиотиков, лекарств, длительного действия шума). К сожалению, эти цифры ежегодно только растут. Если в России сейчас около 150 млн людей, то это около 15 млн людей только вокруг нас с такой проблемой. Это примерно население всей Прибалтики (около 6 млн) и Беларуси (около 10 млн) вместе взятых. Это безусловно огромная цифра.&nbsp;</p><p>К счастью, около 20-30% из них ― это люди, которые в принципе могут улучшить способность слышать и понимать с помощью специальных регулярных упражнений, т.е. люди, которым показаны реабилитационные занятия для восстановления данной способности.&nbsp;</p><p>Ниже приведен примерный список диагнозов, при которых наиболее полезны упражнения по развитию слухового восприятия:</p><p>1. Нейросенсорная тугоухость любого генеза, в том числе слуховая нейропатия и центральные слуховые расстройства.&nbsp;</p><p>Возможны варианты применения слуховых тренировок как пользователями слуховых аппаратов/имплантов, так и людям с тугоухостью, не требующей слухопротезирования.</p><p>Слуховые тренировки будут эффективны и для детей, и для взрослых, и для пожилых людей с возрастной тугоухостью.</p> <a href="https://habr.com/ru/post/530824/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530824#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 01 Dec 2020 15:23:30 GMT</pubDate>
+      <dc:creator>ElenaSpb</dc:creator>
+      <category><![CDATA[Open source]]></category><category><![CDATA[Яндекс API]]></category><category><![CDATA[Kotlin]]></category><category><![CDATA[Телемедицина]]></category><category><![CDATA[Ember.js]]></category>
+      <category><![CDATA[Kotlin]]></category><category><![CDATA[open-source]]></category><category><![CDATA[ember]]></category><category><![CDATA[BrainUp]]></category><category><![CDATA[Brain-up]]></category><category><![CDATA[social]]></category><category><![CDATA[слуховое восприятие]]></category><category><![CDATA[тренировка восприятия речи]]></category><category><![CDATA[TestContainers]]></category><category><![CDATA[развитие речи]]></category>
+    </item>
+
+
+
+
+
+
+
+      <item>
+      <title><![CDATA[Шифруем по-русски, или отечественные криптоалгоритмы]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/530816/</guid>
+      <link>https://habr.com/ru/post/530816/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530816</link>
+      <description><![CDATA[<p>В данной статье простыми словами описаны криптоалгоритмы, являющиеся актуальными на данный момент российскими стандартами защиты информации, и подобраны ссылки на материалы, которые при желании помогут разобраться с ними глубже. А также, в конце статьи приведены работы с результатами криптоанализа одного из важнейших элементов данных алгоритмов.</p> <a href="https://habr.com/ru/post/530816/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530816#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 01 Dec 2020 14:57:01 GMT</pubDate>
+      <dc:creator>pelbyl</dc:creator>
+      <category><![CDATA[Информационная безопасность]]></category><category><![CDATA[Криптография]]></category><category><![CDATA[Алгоритмы]]></category>
+      <category><![CDATA[гост]]></category><category><![CDATA[кузнечик]]></category><category><![CDATA[магма]]></category><category><![CDATA[стрибог]]></category><category><![CDATA[цифровая подпись]]></category><category><![CDATA[шифр]]></category>
+    </item>
+
+
+
+
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Советы по продажам для технических стартапов]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/530456/</guid>
+      <link>https://habr.com/ru/post/530456/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530456</link>
+      <description><![CDATA[<i>Кэрол занимается развитием бизнеса компании Leadfeeder в США. Она обладает суммарно более чем 10 годами опыта в маркетинге, продажах и развитии бизнеса.</i><br>
+<br>
+Вы можете создать лучший на всем белом свете продукт или сервис. Но если никто про него не узнает или не видит в нем ценности, вам не выжить. Мы поговорим о тех простых способах, как вам запустить ваши продажи и получить так необходимое вам ускорение. Я рассмотрю способы как вы можете идентифицировать и приоритизировать самые легкодоступные лиды, как вам войти в контакт с этими лидами и как выглядят успешные переговоры о продажах.<br>
+<br>
+<h3>1. Идентификация и приоритизация легкодоступных лидов</h3><br>
+<b>Станьте лидером мнений в вашей области и делитесь знаниями</b> на вопросно-ответных сайтах, таких как Quora, Inbound.org, Stack Exchange. Это быстрый способ продвигаться ваш продукт, так как вы можете просто искать людей, спрашивающие о проблеме, которую вы решаете.<br>
+<br>
+Например, в Leadfeeder <a href="https://blog.leadfeeder.com/10-hot-discussions-on-lead-generation-that-will-get-you-new-business-fast/" rel="nofollow">мы обнаружили что трафик из Quora</a> конвертируется в пробные подписки в примерно два раза лучше, чем трафик из других источников. Мы также договорились с командой и размещали ссылки на наши ответы в специальном канале Slack, чтобы другие могли проголосовать за наши ответы, чтобы их увидело больше людей.<br>
+<br>
+Когда вы отвечаете на вопросы не будьте слишком навязчивы в рекламе ваших услуг или продукта, но не скрывайте свою роль в вашей компании.<br> <a href="https://habr.com/ru/post/530456/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530456#habracut">Читать дальше &rarr;</a>]]></description>
+      
+      <pubDate>Tue, 01 Dec 2020 14:40:09 GMT</pubDate>
+      <dc:creator>MagisterLudi</dc:creator>
+      <category><![CDATA[Учебный процесс в IT]]></category><category><![CDATA[Развитие стартапа]]></category><category><![CDATA[Управление продажами]]></category>
+      <category>yc startup library на русском</category><category>ycombinator</category><category>продажи</category>
+    </item>
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Настройка GitHub Actions для автоматизированного тестирования средствами Python в конвейере CI/CD]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/530630/</guid>
+      <link>https://habr.com/ru/post/530630/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530630</link>
+      <description><![CDATA[<p>В этой статье описываются операции по тестированию клиентской части приложения с помощью <a href="https://testproject.io/"><u>TestProject</u></a> и&nbsp;<a href="https://blog.testproject.io/2019/07/16/behavior-driven-python-tests-using-pytest-bdd/"><u>pytest</u></a>, а также способы выполнения тестов через GitHub Actions. Если у вас общедоступный репозиторий GitHub, все это будет совершенно бесплатно. Эта возможность хорошо подходит для изучения TestProject и выполнения интеграционного тестирования в ваших проектах. Если вы хотите выполнять эти операции из закрытого репозитория, то GitHub предлагает очень большое количество бесплатных минут, см.&nbsp;<a href="https://github.com/features/actions#pricing-details"><u>https://github.com/features/actions#pricing-details</u></a>.</p> <a href="https://habr.com/ru/post/530630/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530630#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 01 Dec 2020 14:32:17 GMT</pubDate>
+      <dc:creator>MaxRokatansky</dc:creator>
+      <category><![CDATA[Блог компании OTUS. Онлайн-образование]]></category><category><![CDATA[Python]]></category><category><![CDATA[Тестирование веб-сервисов]]></category>
+      <category>автоматизация тестирования</category><category>python</category><category>github actions</category>
+    </item>
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Рисование собственных представлений (View) в Android]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/530618/</guid>
+      <link>https://habr.com/ru/post/530618/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530618</link>
+      <description><![CDATA[<p>Разработчики постоянно проектируют различные виды пользовательских интерфейсов с помощью XML, но в дополнение к этому можно довольно легко освоить создание собственных представлений, которые открывают новые преимущества и позволяют избежать повторного использования шаблонного кода.</p><p>В Android доступен широкий набор готовых виджетов и макетов для создания пользовательского интерфейса, однако они не могут удовлетворить все требования наших приложений. И здесь на помощь приходит возможность создания собственных представлений. Создав собственный подкласс представления, можно получить максимально полный контроль за внешним видом и функционалом экранного элемента.</p><p>Прежде чем приниматься за работу с собственными представлениями, полезно изучить <a href="https://medium.com/@pavan.careers5208/the-life-cycle-of-a-view-in-android-6a2c4665b95e"><u>жизненный цикл представления</u></a>.</p><p>Зачем создавать собственные представления?</p><p>Чтобы реализовать собственное представление, в большинстве случаев понадобится больше времени, чем если использовать обычные представления. Создавать собственные представления стоит лишь в том случае, если нет другого, более простого способа реализовать нужную вам возможность или если у вас есть какие-либо из указанных ниже проблем, которые можно устранить за счет создания собственного представления.</p> <a href="https://habr.com/ru/post/530618/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530618#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 01 Dec 2020 14:26:31 GMT</pubDate>
+      <dc:creator>MaxRokatansky</dc:creator>
+      <category><![CDATA[Блог компании OTUS. Онлайн-образование]]></category><category><![CDATA[Программирование]]></category><category><![CDATA[Разработка под Android]]></category>
+      <category>android</category><category>представление</category><category>grudle plugin</category><category>ui</category>
+    </item>
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Разочарования и проблемы офферов]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/530622/</guid>
+      <link>https://habr.com/ru/post/530622/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530622</link>
+      <description><![CDATA[<p>Ваш кандидат только что прошел последнее собеседование – ура! Вы получаете информацию от клиента о том, что он готов перейти к этапу контрольной проверки и после этого принять на работу кандидата, которого вы привели. Вы справились! Или нет?</p><p>Рекрутеры знают, насколько опасно отмечать победу до момента окончательного принятия кандидата на работу. Очень волнительно! Вы приложили много усилий, чтобы найти кандидата, который удовлетворяет всем требованиям, и убедились, что клиент и кандидат друг в друге заинтересованы. И это нужно отметить!</p><p>Однако, как и многие другие рекрутеры, я тоже совершал ошибку и начинал праздновать, но оказывалось, что оффер так и оставался оффером, потому что кандидат в итоге отказывался. Так бывает и с лучшими из нас, но есть вещи, которые мы можем сделать, чтобы уменьшить вероятность того, что кандидат откажется от предложения.</p> <a href="https://habr.com/ru/post/530622/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530622#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 01 Dec 2020 14:24:00 GMT</pubDate>
+      <dc:creator>MaxRokatansky</dc:creator>
+      <category><![CDATA[Блог компании OTUS. Онлайн-образование]]></category><category><![CDATA[Управление персоналом]]></category>
+      <category>it-рекрутинг</category><category>оффер</category>
+    </item>
+
+
+
+  
+
+
+
+    <item>
+      <title><![CDATA[[Перевод] Меняем стандартный диалог сбоя приложения в Android на собственный экран]]></title>
+      <guid isPermaLink="true">https://habr.com/ru/post/530606/</guid>
+      <link>https://habr.com/ru/post/530606/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530606</link>
+      <description><![CDATA[<p>Не знаю, как вам, но мне бывает очень стыдно, когда я передаю свое приложение на проверку тестировщику или клиенту и в приложении возникает сбой. Это весьма неприятный момент.</p><p><em>«Живи так, как будто ты умрешь завтра. Учись так, как будто ты будешь жить вечно».</em></p> <a href="https://habr.com/ru/post/530606/?utm_source=habrahabr&amp;utm_medium=rss&amp;utm_campaign=530606#habracut">Читать далее</a>]]></description>
+      
+      <pubDate>Tue, 01 Dec 2020 14:23:18 GMT</pubDate>
+      <dc:creator>MaxRokatansky</dc:creator>
+      <category><![CDATA[Блог компании OTUS. Онлайн-образование]]></category><category><![CDATA[Программирование]]></category><category><![CDATA[Разработка под Android]]></category><category><![CDATA[Kotlin]]></category>
+      <category>android development</category><category>kotlin</category><category>android studio</category>
+    </item>
+
+
+
+
+
+
+
+
+
+  </channel>
+</rss>
