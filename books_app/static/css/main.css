@@ -98,4 +98,6 @@ a:hover {
     min-height: 100%;
 }
 
-
+.articles_table {
+    font-size: 13px;
+}
