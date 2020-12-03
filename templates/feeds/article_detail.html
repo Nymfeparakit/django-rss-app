@@ -1,5 +1,6 @@
 {% extends 'base_feed.html' %}
 
 {% block content %}
-
+<h1>{{ article.title }}</h1>
+{% autoescape off %}{{ article.description }}{% endautoescape %}
 {% endblock %}

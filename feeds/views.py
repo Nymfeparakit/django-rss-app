@@ -59,13 +59,13 @@ class ArticleDetailView(TemplateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         article_id = kwargs['article_id']
-        self.read_article_data(article_id)
+        context['article'] = self.read_article_data(article_id)
         return context
 
     def read_article_data(self, article_id):
         user_id = self.request.user.id
         with open(f'{user_id}/today_feed.json', 'r') as f:
-            data = json.load(f)
-            print(type(data))
+            articles_dict = json.load(f)
+            return articles_dict[str(article_id)] 
 
 
