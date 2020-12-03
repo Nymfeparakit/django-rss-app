@@ -15,11 +15,13 @@ class FeedTodayView(TemplateView):
         # today feed always exist for user
         today_feed = Feed.objects.get(user=self.request.user, name='today') 
         # get all sources in this feed
-        context['articles'] = self.parse_feed_articles(today_feed)
+        context['articles_dict'] = self.parse_feed_articles(today_feed)
         return context
 
     def parse_feed_articles(self, feed):
-        articles = []
+        # dict will have structure like this
+        # { id: { 'title': '...', 'desc': '...' } }
+        articles = {}
         for source in feed.sources.all():
             # get rss data by source's link
             rss_data = requests.get(source.url).text.encode('utf-8')
@@ -27,12 +29,18 @@ class FeedTodayView(TemplateView):
             root = etree.fromstring(rss_data, parser=parser)
             titles = root.findall('.//item/title')
             descriptions = root.findall('.//item/description')
-            articles += [
-            {'title': title.text, 
-            'id': abs(hash(title.text)), # TODO изменить id статьи?
-            'description': desc.text,
-            'source': source.name} 
-            for title, desc in zip(titles, descriptions) ]
+            for title, desc in zip(titles, descriptions):
+                articles[abs(hash(title.text))] = {
+                    'title': title.text,
+                    'description': desc.text,
+                    'source': source.name
+                }
+            # articles += [
+            # {'title': title.text, 
+            # 'id': abs(hash(title.text)), # TODO изменить id статьи?
+            # 'description': desc.text,
+            # 'source': source.name} 
+            # for title, desc in zip(titles, descriptions) ]
         self.save_articles_data(articles)
         return articles
 
@@ -41,7 +49,8 @@ class FeedTodayView(TemplateView):
         if not os.path.exists(f'{user_id}'):
             os.mkdir(f'{user_id}')
         with open(f'{user_id}/today_feed.json', 'w') as f:
-            json.dump(articles_data, f)
+            print("saving articles data")
+            json.dump(articles_data, f, ensure_ascii=False)
 
 
 class ArticleDetailView(TemplateView):
@@ -50,5 +59,13 @@ class ArticleDetailView(TemplateView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         article_id = kwargs['article_id']
+        self.read_article_data(article_id)
         return context
+
+    def read_article_data(self, article_id):
+        user_id = self.request.user.id
+        with open(f'{user_id}/today_feed.json', 'r') as f:
+            data = json.load(f)
+            print(type(data))
+
 
