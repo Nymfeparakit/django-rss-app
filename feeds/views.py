@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from django.views.generic import TemplateView
+from django.views.generic import TemplateView, ListView
+from django.views.generic.edit import FormMixin
 import requests
 from lxml import etree
 import os, json
@@ -63,3 +64,6 @@ class ArticleDetailView(TemplateView):
             return articles_dict[str(article_id)] 
 
 
+class SourceListView(ListView):
+    model = Source
+    template_name = 'feeds/manage_sources.html'
