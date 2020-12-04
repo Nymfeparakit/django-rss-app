@@ -67,3 +67,10 @@ class ArticleDetailView(TemplateView):
 class SourceListView(ListView):
     model = Source
     template_name = 'feeds/manage_sources.html'
+    context_object_name = 'sources_list'
+
+    # return sources for current user from 'today' feed
+    def get_queryset(self):
+        qs = super().get_queryset()
+        today_feed = Feed.objects.get(user=self.request.user, name='today') 
+        return today_feed.sources.all()
