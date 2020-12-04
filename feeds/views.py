@@ -3,6 +3,7 @@ from django.views.generic import TemplateView
 import requests
 from lxml import etree
 import os, json
+from django.conf import settings
 
 from .models import Feed, Source
 
@@ -25,6 +26,10 @@ class FeedTodayView(TemplateView):
         for source in feed.sources.all():
             # get rss data by source's link
             rss_data = requests.get(source.url).text.encode('utf-8')
+            if source.name == 'habr':
+                rss_text = requests.get(source.url).text
+                with open('habr_feed.xml', 'w') as f:
+                    f.write(rss_text)
             parser = etree.XMLParser(ns_clean=True, recover=True, encoding='utf-8')
             root = etree.fromstring(rss_data, parser=parser)
             titles = root.findall('.//item/title')
@@ -46,9 +51,9 @@ class FeedTodayView(TemplateView):
 
     def save_articles_data(self, articles_data):
         user_id = self.request.user.id 
-        if not os.path.exists(f'{user_id}'):
-            os.mkdir(f'{user_id}')
-        with open(f'{user_id}/today_feed.json', 'w') as f:
+        if not os.path.exists(f'{settings.MEDIA_ROOT}/{user_id}'):
+            os.mkdir(f'{settings.MEDIA_ROOT}/{user_id}')
+        with open(f'{settings.MEDIA_ROOT}/{user_id}/today_feed.json', 'w') as f:
             print("saving articles data")
             json.dump(articles_data, f, ensure_ascii=False)
 
