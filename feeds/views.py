@@ -26,10 +26,6 @@ class FeedTodayView(TemplateView):
         for source in feed.sources.all():
             # get rss data by source's link
             rss_data = requests.get(source.url).text.encode('utf-8')
-            if source.name == 'habr':
-                rss_text = requests.get(source.url).text
-                with open('habr_feed.xml', 'w') as f:
-                    f.write(rss_text)
             parser = etree.XMLParser(ns_clean=True, recover=True, encoding='utf-8')
             root = etree.fromstring(rss_data, parser=parser)
             titles = root.findall('.//item/title')
@@ -40,12 +36,6 @@ class FeedTodayView(TemplateView):
                     'description': desc.text,
                     'source': source.name
                 }
-            # articles += [
-            # {'title': title.text, 
-            # 'id': abs(hash(title.text)), # TODO изменить id статьи?
-            # 'description': desc.text,
-            # 'source': source.name} 
-            # for title, desc in zip(titles, descriptions) ]
         self.save_articles_data(articles)
         return articles
 
@@ -54,7 +44,6 @@ class FeedTodayView(TemplateView):
         if not os.path.exists(f'{settings.MEDIA_ROOT}/{user_id}'):
             os.mkdir(f'{settings.MEDIA_ROOT}/{user_id}')
         with open(f'{settings.MEDIA_ROOT}/{user_id}/today_feed.json', 'w') as f:
-            print("saving articles data")
             json.dump(articles_data, f, ensure_ascii=False)
 
 
