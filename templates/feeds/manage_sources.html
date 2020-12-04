@@ -1,20 +1,26 @@
 {% extends 'base_feed.html' %}
 
 {% block content %}
-<h1>Manage sources</h1>
-<div class="input-group">
-    <input class="form-control" type="text" placeholder="Add new source">
-    <div class="input-group-append">
-        <button class="btn" type="button">Add</button>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 style="margin-top: 20px;">Manage sources</h1>
+            <div class="input-group" style="margin-top: 30px;">
+                <input class="form-control" type="text" placeholder="Add new source">
+                <div class="input-group-append">
+                    <button class="btn" type="button">Add</button>
+                </div>
+            </div>
+            <table class="table" style="margin-top: 60px;">
+                <tbody>
+                    {% for source in sources_list %}
+                        <tr>
+                            <td>{{ source }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
     </div>
 </div>
-<table class="table">
-    <tbody>
-        {% for source in sources_list %}
-            <tr>
-                <td>{{ source }}</td>
-            </tr>
-        {% endfor %}
-    </tbody>
-</table>
 {% endblock %}
