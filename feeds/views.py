@@ -59,7 +59,7 @@ class ArticleDetailView(TemplateView):
 
     def read_article_data(self, article_id):
         user_id = self.request.user.id
-        with open(f'{user_id}/today_feed.json', 'r') as f:
+        with open(f'{settings.MEDIA_ROOT}/{user_id}/today_feed.json', 'r') as f:
             articles_dict = json.load(f)
             return articles_dict[str(article_id)] 
 
