@@ -5,6 +5,7 @@ import requests
 from lxml import etree
 import os, json
 from django.conf import settings
+from django.http import HttpResponseRedirect
 
 from .models import Feed, Source
 
@@ -74,3 +75,36 @@ class SourceListView(ListView):
         qs = super().get_queryset()
         today_feed = Feed.objects.get(user=self.request.user, name='today') 
         return today_feed.sources.all()
+
+
+    def get(self, request, *args, **kwargs):
+        print('get request')
+        return super().get(request, args, kwargs)
+
+    def post(self, request, *args, **kwargs):
+        source_url = self.request.POST['source_url']
+
+        # get source name and icon from rss data
+        rss_data = requests.get(source_url).text.encode('utf-8')
+        parser = etree.XMLParser(ns_clean=True, recover=True, encoding='utf-8')
+        root = etree.fromstring(rss_data, parser=parser)
+        
+        source_name = root.find('.//channel/title').text
+        icon_url = root.find('.//channel/image/url').text
+        icon_title = root.find('.//channel/image/title').text
+        self.download_source_icon(icon_url, icon_title)
+        print('new source name:', source_name)
+
+        #new_source = Source(name='new source', url = 'https://www.rbc.ru/')
+        #new_source.save()
+        #today_feed = Feed.objects.get(user=self.request.user, name='today') 
+        #today_feed.sources.add(new_source)
+        return HttpResponseRedirect('')
+
+    def download_source_icon(self, icon_url, icon_title):
+        icon_page = requests.get(icon_url)
+        icon_extension = os.path.splitext(icon_url)[-1]
+        icon_file = f'{icon_title}.{icon_extension}'
+        with open(f'{settings.MEDIA_ROOT}/sources_icons/{icon_file}', 'wb') as f:
+            f.write(icon_page.content)
+

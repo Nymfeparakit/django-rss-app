@@ -5,12 +5,15 @@
     <div class="row">
         <div class="col-md-12">
             <h1 style="margin-top: 20px;">Manage sources</h1>
-            <div class="input-group" style="margin-top: 30px;">
-                <input class="form-control" type="text" placeholder="Add new source">
-                <div class="input-group-append">
-                    <button class="btn" type="button">Add</button>
+            <form method="post" action=".">
+                {% csrf_token %}
+                <div class="input-group" style="margin-top: 30px;">
+                    <input name="source_url" class="form-control" type="text" placeholder="Add new source">
+                    <div class="input-group-append">
+                        <button class="btn" type="submit">Add</button>
+                    </div>
                 </div>
-            </div>
+            </form>
             <table class="table" style="margin-top: 60px;">
                 <tbody>
                     {% for source in sources_list %}
