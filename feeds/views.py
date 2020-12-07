@@ -33,11 +33,13 @@ class FeedTodayView(TemplateView):
             root = etree.fromstring(rss_data, parser=parser)
             titles = root.findall('.//item/title')
             descriptions = root.findall('.//item/description')
-            for title, desc in zip(titles, descriptions):
+            urls = root.findall('.//item/link')
+            for title, desc, url in zip(titles, descriptions, urls):
                 articles[abs(hash(title.text))] = {
                     'title': title.text,
                     'description': desc.text,
-                    'source': source.name
+                    'source': source.name,
+                    'url': url.text,
                 }
         self.save_articles_data(articles)
         return articles

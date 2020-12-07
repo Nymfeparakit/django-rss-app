@@ -4,4 +4,5 @@
 {% block content %}
 <h1>{{ article.title }}</h1>
 {% autoescape off %}{{ article.description }}{% endautoescape %}
+<p class="lead"><a href="{{ article.url }}" target="_blank">Read more on website</a></p>
 {% endblock %}
