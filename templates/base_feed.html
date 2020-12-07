@@ -26,17 +26,17 @@
           <div class="row h-100">
               <div class="col-md-2 feed_drawer">
                 <p>
-                  <i class="fas fa-calendar-day"></i>
-                  Today
+                  <a href="{% url 'today' %}">
+                    <i class="fas fa-calendar-day"></i>
+                    Today
+                  </a>
                 </p>
-                <p class="text-secondary" style="margin-top: 50px;">
-                  <a href="{% url 'manage-sources' %}"><i class="fas fa-cog"></i></a>
-                  Sources
+                <p>
+                  <a href="{% url 'manage-sources' %}">
+                    <i class="fas fa-cog"></i>
+                    Sources
+                  </a>
                 </p>
-                <ul class="list-group list-group-flush bg-transparent">
-                  <li class="list-group-item bg-transparent">Habr</li>
-                  <li class="list-group-item bg-transparent">Habr</li>
-                </ul>
               </div>
               <div class="col-md-10">
                 {% block content %}{% endblock %}
