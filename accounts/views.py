@@ -3,6 +3,7 @@ from django.views.generic.edit import FormView
 from django.contrib.auth.forms import UserCreationForm
 from django.urls import reverse_lazy
 from django.shortcuts import redirect, render
+from feeds.models import Feed
 
 class SignupView(FormView):
     template_name = 'registration/signup.html'
@@ -12,6 +13,8 @@ class SignupView(FormView):
     def post(self, request, *args, **kwargs):
         f = UserCreationForm(request.POST)
         if f.is_valid():
-            f.save()
+            new_user = f.save()
+            new_feed = Feed(name='today', user=new_user)
+            new_feed.save()
             return redirect('login')
         return render(request, self.template_name, {'form': f})
