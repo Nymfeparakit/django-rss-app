@@ -8,7 +8,7 @@
         {% for id, article in articles_dict.items %}
             <tr>
                 <td>{{ article.source }}</td>
-                <td><a href="{% url 'article' article_id=id %}">{{ article.title }}</a></td>
+                <td><a href="{% url 'feeds:article' article_id=id %}">{{ article.title }}</a></td>
             </tr>    
         {% endfor %}
     </table>
