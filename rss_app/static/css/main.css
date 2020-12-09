@@ -101,3 +101,8 @@ a:hover {
 .articles_table {
     font-size: 13px;
 }
+
+.feed_section_title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
