@@ -7,10 +7,11 @@ import os, json
 from django.conf import settings
 from django.http import HttpResponseRedirect
 from django.core.files.base import ContentFile
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 from .models import Feed, Source
 
-class FeedTodayView(TemplateView):
+class FeedTodayView(LoginRequiredMixin, TemplateView):
     template_name='feeds/articles.html'
 
     def get_context_data(self, **kwargs):
@@ -52,7 +53,7 @@ class FeedTodayView(TemplateView):
             json.dump(articles_data, f, ensure_ascii=False)
 
 
-class ArticleDetailView(TemplateView):
+class ArticleDetailView(LoginRequiredMixin, TemplateView):
     template_name='feeds/article_detail.html'
 
     def get_context_data(self, **kwargs):
@@ -68,7 +69,7 @@ class ArticleDetailView(TemplateView):
             return articles_dict[str(article_id)] 
 
 
-class SourceListView(ListView):
+class SourceListView(LoginRequiredMixin, ListView):
     model = Source
     template_name = 'feeds/manage_sources.html'
     context_object_name = 'sources_list'

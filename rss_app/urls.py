@@ -7,5 +7,6 @@ urlpatterns = [
     path('', include('pages.urls')),
     path('admin/', admin.site.urls),
     path('accounts/', include('django.contrib.auth.urls')),
-    path('feeds/', include('feeds.urls')),
+    path('accounts/', include('accounts.urls')),
+    path('feeds/', include(('feeds.urls', 'feeds'), namespace='feeds')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
