@@ -5,10 +5,10 @@
         Articles
     </h1>
     <table class="table table-sm articles_table">
-        {% for id, article in articles_dict.items %}
+        {% for article in articles_list %}
             <tr>
                 <td>{{ article.source }}</td>
-                <td><a href="{% url 'feeds:article' article_id=id %}">{{ article.title }}</a></td>
+                <td><a href="{% url 'feeds:article' article_id=article.id %}">{{ article.title }}</a></td>
             </tr>    
         {% endfor %}
     </table>
