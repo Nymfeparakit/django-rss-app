@@ -60,18 +60,8 @@ class FeedTodayView(LoginRequiredMixin, TemplateView):
                     'url': url.text,
                     'pubDate': pub_date.text
                 })
-                # articles.append(Article(
-                #     id=abs(hash(title.text)),
-                #     title=title.text,
-                #     description=desc.text,
-                #     source=source.name,
-                #     url=url.text,
-                #     pub_date=pub_date.text))
         # sort all articles by publication date
         articles.sort(key=lambda x: try_parse_date(x['pubDate']).replace(tzinfo=None))
-        # articles = OrderedDict(
-        #     sorted(articles.items(), key=lambda x: try_parse_date(x[1]['pubDate']).replace(tzinfo=None)), 
-        #     reverse=True)
         self.save_articles_data(articles)
         return articles
 
